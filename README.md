@@ -4,3 +4,5 @@
 - CSS
 - Javascript
 - jQuery
+- Bootstrap
+- AJAX
