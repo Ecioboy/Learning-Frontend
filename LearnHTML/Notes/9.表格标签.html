@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签</title>
+</head>
+<body>
+<!--
+table 表格标签
+行 tr
+列 td
+border 边框长度
+-->
+<table border="1px">
+  <tr>
+    <td>1-1</td>
+    <td>1-2</td>
+    <td>1-3</td>
+    <td>1-4</td>
+  </tr>
+  <tr>
+    <td>2-1</td>
+    <td>2-2</td>
+    <td>2-3</td>
+    <td>2-4</td>
+  </tr>
+  <tr>
+    <td>3-1</td>
+    <td>3-2</td>
+    <td>3-3</td>
+    <td>3-4</td>
+  </tr>
+
+</table>
+
+<br>
+
+<!--跨列-->
+
+<table border="1px">
+  <tr>
+    <!--- colspan 跨列-->
+    <td colspan="4">1-1</td>
+  </tr>
+  <tr>
+    <!--- rowspan 跨行 -->
+    <td rowspan="2">2-1</td>
+    <td>2-2</td>
+    <td>2-3</td>
+    <td>2-4</td>
+  </tr>
+  <tr>
+    <td>3-1</td>
+    <td>3-2</td>
+    <td>3-3</td>
+  </tr>
+
+</table>
+</body>
+</html>

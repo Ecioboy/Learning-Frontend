@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+
+<h1>注册</h1>
+<!--
+action 表单提交的位置，可以是网站，也可以是一个请求处理的地址
+method get / post 提交方式
+    get 方式提交：我们可以在url中看到我们提交的信息，不安全，高效
+    post 方式提交：比较安全，传输大文件，
+-->
+<form action="../表单提交内容.html" method="get">
+  <!--- 文本输入框：input type="text" -->
+  <p>帐号：
+    <input type="text" name="username">
+  </p>
+  <!--- 密码输入框：input type="password" -->
+  <p>密码：
+    <input type="password" name="userpwd">
+  </p>
+
+
+    <p>
+        <input type="submit">
+        <input type="reset">
+    </p>
+
+</form>
+
+
+
+</body>
+</html>

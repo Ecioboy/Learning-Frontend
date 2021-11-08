@@ -1,0 +1,16 @@
+/* 后代选择器 : 在某个元素的后面*/
+body p{
+    color: red;
+}
+/* 子选择器： 只有一代*/
+li>p{
+    color: green;
+}
+/*相邻兄弟选择器：只有一个，相邻（向下）*/
+.active + p{
+    background: burlywood;
+}
+/*通用兄弟选择器：向下选择所有同级元素*/
+.active~p{
+    color: #4a78c2;
+}

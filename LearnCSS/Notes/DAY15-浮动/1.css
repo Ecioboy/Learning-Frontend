@@ -1,0 +1,18 @@
+
+/*display*/
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    display: inline-block;
+}
+/*block块元素
+  inline 行内元素
+  inline-block 块和行内元素共存
+*/
+span{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    display: block;
+}

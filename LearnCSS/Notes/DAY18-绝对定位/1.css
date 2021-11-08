@@ -1,0 +1,36 @@
+
+body{
+    padding: 20px;
+}
+
+div{
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 25px;
+}
+#father{
+    border: 1px solid #666;
+    padding: 0;
+    /*假设父级元素存在定位，我们通常会相对于父级元素偏移*/
+    /*position: relative;*/
+}
+#first{
+    background-color: #888888;
+    border: 1px dashed #666;
+}
+#second{
+    background-color: #666666;
+    border: 1px dashed #666;
+    /*绝对定位*/
+    /*没有父级元素定位的前提下，相当于浏览器定位*/
+    /*在父级元素范围内偏移*/
+    /*相对于父级或浏览器的位置，进行指定的偏移，绝对定位的话，它不在标准文档流中，原来的位置不会被保留*/
+    position: absolute;
+    left: -10px;
+}
+#third{
+    background-color: #779dbd;
+    border: 1px dashed #666;
+
+}

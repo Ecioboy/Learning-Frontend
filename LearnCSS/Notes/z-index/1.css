@@ -1,0 +1,40 @@
+#app{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 25px;
+    border: 1px #000 solid;
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*父级元素相对定位*/
+#app ul{
+    position: relative;
+}
+.tipText, .tipBG{
+    /*绝对定位*/
+    position: absolute;
+    width: 380px;
+    height: 25px;
+    top: 344px;
+}
+.tipText{
+    color: white;
+    /*置于顶层*/
+    z-index: 999;
+}
+.tipBG{
+    background: #000;
+    /*背景透明度*/
+    opacity: 0.5;
+
+    /*IE8浏览器的透明度使用方法*/
+    /*filter: alpha(opacity=0.5);*/
+}

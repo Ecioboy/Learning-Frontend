@@ -1,0 +1,55 @@
+/*字体样式*/
+/*span标签*/
+#title1{
+    font-size: 50px;
+}
+
+/*
+font-family:     字体
+font-size:       字体大小
+font-weight:     字体粗细
+color:           字体颜色
+*/
+
+body{
+    /*美化body元素里的所有字体*/
+    font-family: "Hack Nerd Font";
+}
+.p1{
+    font-size: 25px;
+    color: red;
+}
+
+/*文本样式*/
+/* 文字排版
+color: rgb()        16进制调色
+text-align: center; 文本居中
+            right;  右边靠齐
+            left;   左边靠齐
+text-indent:        段落首行缩进
+line-height:        行高
+text-decoration: underline;     下划线
+text-decoration: line-through;  中划线
+text-decoration: line-overline; 上划线
+*/
+.h_2{
+    color: rgb(0,255,255);
+    text-align: center;
+}
+.p2{
+    text-indent: 10px;
+}
+.p3{
+    background: #4a78c2;
+    height: 400px;      /* 块高*/
+    line-height: 100px;
+}
+.p4{
+    text-decoration: underline;
+}
+.p5{
+    text-decoration: line-through;
+}
+.p6{
+    text-decoration: overline;
+}

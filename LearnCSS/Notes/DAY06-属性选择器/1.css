@@ -1,0 +1,24 @@
+
+/*存在id属性的元素 a[]{}
+属性名[属性名=属性值]{}
+*/
+a[id=first]{
+    color: red;
+}
+
+/*class中有links元素
+*=包含这个元素
+*/
+a[class*="links"]{
+    background: red;
+}
+
+/*选中href中以http开头的元素*/
+a[href^=http]{
+    background: #888888;
+}
+
+/*选中href以jpg结尾的元素*/
+a[href$=jpg]{
+    background: green;
+}

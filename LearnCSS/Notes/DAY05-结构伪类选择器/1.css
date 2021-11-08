@@ -1,0 +1,19 @@
+/*伪类选择器*/
+
+ul li:first-child{
+    color: red;
+}
+
+ul li:last-child{
+    color: green;
+}
+
+/*选中当前p元素的父级元素的第一个元素*/
+p:nth-child(1){
+    background: red;
+}
+
+/*选中父元素，下的p元素的第二个，类型*/
+p:nth-of-type(2){
+    color: yellow;
+}

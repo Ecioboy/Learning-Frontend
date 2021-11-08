@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="../表单提交内容.html" method="get">
+  <!--- 文本输入框：input type="text" -->
+  <!---
+  value="noi好帅" 默认初始值
+  maxlength="8" 最长能写几个字符
+  size="30"     文本框的长度
+  -->
+  <p>帐号：
+    <input type="text" name="username">
+  </p>
+  <!--- 密码输入框：input type="password" -->
+  <p>密码：
+    <input type="password" name="userpwd">
+  </p>
+<!--单选框标签
+value:单选框的值
+name: 表示组
+-->
+  <p>性别：
+    <input type="radio" value="boy" name="sex">男
+    <input type="radio" value="girl" name="sex">女
+  </p>
+
+
+
+  <p>
+    <input type="submit">
+    <input type="reset">
+  </p>
+
+</form>
+
+</body>
+</html>
+<!--
+type 指定元素的类型
+name 指定表单元素的名称
+value 元素的初始值，type为radio时必须指定一个值
+size 元素的初始宽度
+maxlength type为text或password时，输入的最大字符数
+checked type为radio或checkbox时，指定按钮是否是被选中
+-->

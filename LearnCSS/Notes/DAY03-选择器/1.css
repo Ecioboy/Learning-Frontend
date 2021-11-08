@@ -1,0 +1,18 @@
+/*标签选择器*/
+h1{
+    color: red;
+}
+/*类选择器*/
+.x{
+    color: green;
+}
+/*id选择器*/
+#c{
+    color: burlywood;
+}
+
+
+#z{
+    border-radius: 30px;
+}
+

@@ -1,0 +1,31 @@
+#y{
+    width: 100px;
+    height: 100px;
+    border: 10px solid red;
+    /* 顺时针：左上 右上 右下 左下*/
+    border-radius: 10px 20px 30px 40px;
+}
+
+/*半圆*/
+#n{
+    margin-top: 10px;
+    width: 50px;
+    height: 25px;
+    border: 10px solid red;
+    border-radius: 50px 50px 0px 0px;
+}
+
+/*盒子阴影*/
+#s{
+    width: 100px;
+    height: 100px;
+    border: 10px solid red;
+    box-shadow: 10px 10px 100px yellow;
+}
+
+/*图片居中*/
+#a{
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+}

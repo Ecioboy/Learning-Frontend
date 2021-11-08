@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+<div id="father">
+    <div class="div1"><img src="../Pr/github.jpeg" alt=""></div>
+    <div class="div2"><img src="../Pr/float-1.jpeg" alt=""></div>
+    <div class="div3"><img src="../Pr/float-2.jpeg" alt=""></div>
+    <div class="div4"><img src="../Pr/float-3.jpeg" alt=""></div>
+    <div class="div5">我是文字我是文字我是文字我是文字</div>
+</div>
+
+
+
+<!--增加一个空的div来清除塌陷-->
+<div class="clear"></div>
+
+
+<!--
+1.浮动元素增加空div
+    简单，代码中尽量避免空div
+2.设置父元素的高度
+    简单，元素假设有了固定的高度，会被限制
+3.overflow
+    简单，下拉的一些场景避免使用
+4.在父级元素添加伪类：after（推荐）
+    写法稍微复杂，但是没有副作用
+
+display和float
+1.display
+    方向不可控
+2.float
+    需要解决父级边框塌陷问题
+
+-->
+
+</body>
+</html>

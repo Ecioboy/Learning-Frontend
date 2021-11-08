@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#xd{
+    margin-left: 60px;
+    margin-top: 60px;
+    width: 315px;
+    height: 315px;
+    border: 2px solid #000000;
+}
+
+a:hover{
+    background-color: #6284FF;
+}
+
+.lj_1{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.lj_2{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -90px;
+    left: 205px;
+}
+.lj_3{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    bottom: -5px;
+    left: 10px;
+}
+.lj_4{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -95px;
+    left: 205px;
+}
+.lj_5{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -295px;
+    left: 105px;
+}

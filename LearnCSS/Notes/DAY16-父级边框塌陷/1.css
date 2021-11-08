@@ -1,0 +1,60 @@
+
+/*浮动*/
+div{
+    margin: 10px;
+    padding: 5px;
+}
+#father{
+    border: 1px #000 solid;
+/*清除塌陷1    增加父级元素高度*/
+    height: 600px;
+    /*清除塌陷3   在父级元素中增加一个 overflow: hidden;*/
+    overflow: hidden;
+}
+/*清除塌陷4 伪类*/
+#father:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.div1{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: left;
+}
+.div2{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: left;
+}
+.div3{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: right;
+}
+.div4{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: right;
+}
+.div5{
+    border: 1px #666 dashed;
+    font-size: 12px;
+    line-height: 23px;
+    display: inline-block;
+    float: right;
+    /*
+        clear: right; 右侧不允许有浮动元素
+        clear: left;  左侧不允许有浮动元素
+        clear: both;  两侧不允许有浮动元素
+        */
+    clear: both;
+}
+
+/*清除塌陷2   增加div*/
+.clear{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+

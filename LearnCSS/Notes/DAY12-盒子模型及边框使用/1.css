@@ -1,0 +1,25 @@
+body{
+    /*body 默认总有一个外边距*/
+    margin: 0;
+}
+#app{
+    /*border 粗细 样式 颜色*/
+    width: 300px;
+    border: 1px solid red;
+}
+h2{
+    font-size: 16px;
+    background-color: #888888;
+    line-height: 30px;
+    /*margin: 0;*/
+    color: white;
+}
+form{
+    background: #4bffb1;
+}
+div:nth-of-type(1) input{
+    border: 2px solid black;
+}
+div:nth-of-type(2) input{
+    border: 2px dashed red;
+}

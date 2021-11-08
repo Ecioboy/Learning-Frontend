@@ -1,0 +1,47 @@
+
+#nav{
+    width: 300px;
+    background: #888888;
+}
+
+
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 30px;
+    background: red;
+}
+
+/*ul li
+list-style:
+        none; 去掉圆点
+        circle; 空心圆
+        decimal; 数字
+        square;  正方形
+*/
+ul li{
+    height: 30px;
+    list-style: none;
+    text-indent: 1em;
+}
+ul{
+    /* 背景颜色 */
+    background: #888888;
+}
+
+a{
+    text-decoration: none;
+    /* 字体大小 */
+    font-size: 14px;
+    /* 字体颜色 */
+    color: #000000;
+}
+
+/* a标签伪类 */
+a:hover{
+    /* 鼠标悬浮的状态 */
+    color: orange;
+    text-decoration: underline;
+}

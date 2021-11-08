@@ -1,0 +1,36 @@
+
+/*浮动*/
+div{
+    margin: 10px;
+    padding: 5px;
+}
+#father{
+    border: 1px #000 solid;
+}
+.div1{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: left;
+}
+.div2{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: left;
+}
+.div3{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: left;
+}
+.div4{
+    border: 1px #000 dashed;
+    display: inline-block;
+    float: left;
+}
+.div5{
+    border: 1px #666 dashed;
+    font-size: 12px;
+    line-height: 23px;
+    display: inline-block;
+    float: left;
+}

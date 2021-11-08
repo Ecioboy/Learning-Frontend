@@ -1,0 +1,36 @@
+
+body{
+    padding: 20px;
+}
+
+div{
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 25px;
+}
+#father{
+    border: 1px solid #666;
+}
+#first{
+    background-color: #888888;
+    border: 1px dashed #666;
+    /*相对定位：相对于自己原来的位置进行偏移*/
+    /*top 上 left 左 bottom 下 right 右*/
+    /*它仍然在标准文档流中，原来的位置会被保留*/
+    /*相对定位，上下左右*/
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+#second{
+    background-color: #666666;
+    border: 1px dashed #666;
+
+}
+#third{
+    background-color: #779dbd;
+    border: 1px dashed #666;
+    position: relative;
+    bottom: 10px;
+}
