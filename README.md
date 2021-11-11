@@ -6,3 +6,5 @@
 - jQuery
 - Bootstrap
 - AJAX
+- Node.js
+- ES6-ES11
