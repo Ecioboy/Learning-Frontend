@@ -1,5 +1,7 @@
 # Learning-Frontend
 
+### 教程是以前写的，可能很老了
+
 - HTML
 - CSS
 - Javascript
