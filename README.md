@@ -1,6 +1,6 @@
 # Learning-Frontend
 
-### 教程是以前写的，可能很老了
+### 笔记是以前写的，可能很老了
 
 - HTML
 - CSS
