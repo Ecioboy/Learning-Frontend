@@ -10,3 +10,4 @@
 - AJAX
 - Node.js
 - ES6-ES11
+- Promise
