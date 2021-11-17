@@ -11,3 +11,5 @@
 - Node.js
 - ES6-ES11
 - Promise
+- Axios
+- Vue
