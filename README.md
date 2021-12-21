@@ -13,3 +13,5 @@
 - Promise
 - Axios
 - Vue2
+- Vue3
+- Webpack
