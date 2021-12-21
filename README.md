@@ -12,4 +12,4 @@
 - ES6-ES11
 - Promise
 - Axios
-- Vue
+- Vue2
